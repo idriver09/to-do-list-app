@@ -6,6 +6,9 @@ font: normal normal 13px/16px "Open Sans", sans-serif;
 background: #dfdfdf;
 }
 
+
+
+
 .container{
 padding: 20px;
 width: 300px;
@@ -13,6 +16,7 @@ margin: 0 auto;
 margin-top: 40px;
 background: rgb(24, 6, 225);
 border-radius: 5px;}
+
 
 form {
 display: inline-block;
