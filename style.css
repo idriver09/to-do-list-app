@@ -3,20 +3,20 @@
 
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+background: #9c9a9a;
 }
-
-
-
 
 .container{
 padding: 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
-background: rgb(24, 6, 225);
-border-radius: 5px;}
-
+background: white;
+border-radius: 5px;
+height: 500px;
+width: 500px;
+text-align: center;
+}
 
 form {
 display: inline-block;
@@ -28,7 +28,7 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#fc999b;
+background-color:#02d436;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
@@ -42,11 +42,20 @@ opacity: .8;}
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {
+	padding: 5px;
+	color:#02d436;
+	text-align: left;
+	font-size: x-large;
+}
 
 ol li:nth-child(even){background: #dfdfdf;}
 
-.strike{text-decoration: line-through;}
+.strike{
+	text-decoration: line-through;
+	color: red;
+	scale: .9;
+}
 
 li:hover{
   cursor: pointer;
@@ -56,10 +65,16 @@ li:hover{
 	display: none;
 }
 
-li > crossOutButton {
+.crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: #070101;
 	font-weight: 800;
+}
+
+.crossOutButton:hover{
+	color: red;
+	scale:1.2;
+	cursor: pointer;
 }
